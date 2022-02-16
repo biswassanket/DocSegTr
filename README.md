@@ -1,7 +1,7 @@
 # DocSegTr
  
 ## Description
-Official Pytorch implementation of the paper [DocEnTr: An End-to-End Document Image Enhancement Transformer](https://arxiv.org/abs/2201.11438). This model is implemented on top of the [adelaidet](https://github.com/aim-uofa/AdelaiDet) and [detectron2](https://github.com/facebookresearch/detectron2) frameworks. The paper proposes a novel bottom-up instance segmentation strategy using Transformers to segment instances(document layouts) in scientific document images from the [PubLayNet](https://github.com/ibm-aur-nlp/PubLayNet) benchmark.
+Official Pytorch implementation of the paper [DocSegTr: An Instance-Level End-to-End Document Image Segmentation Transformer](https://arxiv.org/abs/2201.11438). This model is implemented on top of the [adelaidet](https://github.com/aim-uofa/AdelaiDet) and [detectron2](https://github.com/facebookresearch/detectron2) frameworks. The paper proposes a novel bottom-up instance segmentation strategy using Transformers to segment instances(document layouts) in scientific document images from the [PubLayNet](https://github.com/ibm-aur-nlp/PubLayNet) benchmark.
 
 <p align="center">
   <img src="https://github.com/biswassanket/DocSegTr/blob/master/images/architecture.png">
