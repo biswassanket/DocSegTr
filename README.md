@@ -79,8 +79,18 @@ python tools/visualize_publaynet.py \
   <b><i>Qualitative analysis on the PubLayNet dataset by DocSegTr . Here first, second and third columns represent original image, ground truth and our proposed DocSegTr results, respectively.</i></b>
 </p>
 
+### Citation
 
+If you find this code useful in your research then please cite
 
+```
+@article{biswas2022docsegtr,
+  title={DocSegTr: An Instance-Level End-to-End Document Image Segmentation Transformer},
+  author={Biswas, Sanket and Banerjee, Ayan and Llad{\'o}s, Josep and Pal, Umapada},
+  journal={arXiv preprint arXiv:2201.11438},
+  year={2022}
+}
+```
 
 ## Acknowledgement 
 Our project has adapted and borrowed the code structure from [SOTR](https://github.com/easton-cau/SOTR). 
