@@ -73,7 +73,7 @@ python tools/visualize_publaynet.py \
 ## Results
 
 <p align="center">
-  <img src="https://github.com/biswassanket/DocSegTr/blob/master/images/Qualitative_analysis.png">
+  <img src="https://github.com/ayanban011/DocSegTr/blob/master/images/Qualitative_analysis.png">
   <br>
   <br>
   <b><i>Qualitative analysis on the PubLayNet dataset by DocSegTr . Here first, second and third columns represent original image, ground truth and our proposed DocSegTr results, respectively.</i></b>
