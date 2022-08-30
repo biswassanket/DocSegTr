@@ -98,7 +98,7 @@ We thank the authors. This research has been partially supported by the Spanish 
   
 ## Author
 * [Sanket Biswas](https://github.com/biswassanket)
-* [Ayan Banerjee](https://github.com/ayanbabusona)
+* [Ayan Banerjee](https://github.com/ayanban011)
 
   
 ### Conclusion
