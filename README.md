@@ -4,7 +4,7 @@
 Official Pytorch implementation of the paper [DocSegTr: An Instance-Level End-to-End Document Image Segmentation Transformer](https://arxiv.org/abs/2201.11438). This model is implemented on top of the [adelaidet](https://github.com/aim-uofa/AdelaiDet) and [detectron2](https://github.com/facebookresearch/detectron2) frameworks. The paper proposes a novel bottom-up instance segmentation strategy using Transformers to segment instances(document layouts) in scientific document images from the [PubLayNet](https://github.com/ibm-aur-nlp/PubLayNet) benchmark.
 
 <p align="center">
-  <img src="https://github.com/biswassanket/DocSegTr/blob/master/images/architecture.png">
+  <img src="https://github.com/ayanban011/DocSegTr/blob/master/images/transformers.png">
   <br>
   <br>
   <b><i>DocSegtr builds on a simple CNN feature extractor with FPN on the input document image. The multi-scaled feature maps(P2-P6) from FPN are combined with positional embedding information to feed into transformer layers, to predict document instances and generate corresponding kernel dynamically. The layerwise feature aggregation module combines the local FPN features and global transformer feature from P5 to segment the instances on the document image</i></b>
