@@ -68,7 +68,7 @@ python tools/visualize_publaynet.py \
     --input /path to JSON created by trained model/ \
     --output /path to output_dir \
     --dataset publaynet_minival \
-    --conf-threshold 0.7
+    --conf-threshold 0.6
 ```
 ## Results
 
