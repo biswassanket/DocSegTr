@@ -43,7 +43,7 @@ python setup.py build develop
 
 * To download **PubLayNet** dataset: `curl -o <YOUR_TARGET_DIR>/publaynet.tar.gz https://dax-cdn.cdn.appdomain.cloud/dax-publaynet/1.0.0/publaynet.tar.gz`
 
-### Step 5: For testing our model, download the best pretrained model weights from this link [best model](https://drive.google.com/file/d/1N5FLCbnJIq_1cvrN4D8OmXqiaxcd5ql4/view?usp=sharing)
+### Step 5: For testing our model, download the best pretrained model weights from the following links
 
 ```bash
 python tools/train_net_custom.py \
