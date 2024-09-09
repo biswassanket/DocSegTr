@@ -43,7 +43,7 @@ python setup.py build develop
 
 * To download **PubLayNet** dataset: `curl -o <YOUR_TARGET_DIR>/publaynet.tar.gz https://dax-cdn.cdn.appdomain.cloud/dax-publaynet/1.0.0/publaynet.tar.gz`
 
-### Step 5: For testing our model, download the best pretrained model weights from this link [best model](https://drive.google.com/file/d/1N5FLCbnJIq_1cvrN4D8OmXqiaxcd5ql4/view?usp=sharing)
+### Step 5: For testing our model, download the best pretrained model weights from the following links
 
 ```bash
 python tools/train_net_custom.py \
@@ -78,6 +78,13 @@ python tools/visualize_publaynet.py \
   <br>
   <b><i>Qualitative analysis on the PubLayNet dataset by DocSegTr . Here first, second and third columns represent original image, ground truth and our proposed DocSegTr results, respectively.</i></b>
 </p>
+
+## Model Zoo
+In this section, we release the pre-trained weights for all the best DocSegTr model variants trained on benchmark datasets.
+
+PRIMA: [Weights](https://cvcuab-my.sharepoint.com/:u:/g/personal/abanerjee_cvc_uab_cat/EbL0EoGyVWdIqxLBi7tsfMgBxrJjeYuUhU0tSxmugCBlYg?e=jk6DNz)
+HJ: [Weights](https://cvcuab-my.sharepoint.com/:u:/g/personal/abanerjee_cvc_uab_cat/EakuVrFbQCpAijpA94AHfcEBTEdKgo2Cn4Cv5Lmk5mgIwA?e=NpBZKS)
+Table: [Weights](https://cvcuab-my.sharepoint.com/:u:/g/personal/abanerjee_cvc_uab_cat/Ebs4NTDL96BDt-NvnZkVWhcBRzPVYoBJhGZbz-zz0FuGZg?e=2F4aWa)
 
 ### Citation
 
